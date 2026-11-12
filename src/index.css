@@ -2,21 +2,36 @@ body {
     margin: 0;
 }
 
-header {
+nav {
     display: flex;
-    background: black;
-    color: white;
     justify-content: space-around;
     height: 70px;
     align-items: center;
 }
 
-a{
+header {
+    background: black;
+    color: white;
+    height: 70px;
+    align-items: center;
+}
+
+a {
     text-decoration: none;
     color: white;
     font-size: 30px;
 }
 
-a:active{
-    color: grey;
+a:active {
+    color: green;
 }
+
+.Nav-Items {
+    display: block;
+}
+
+main {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+label {display: block;}
